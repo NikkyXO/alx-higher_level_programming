@@ -11,18 +11,21 @@ def get_last_digit(number):
 	if number >= 0:
 		return number % 10
 	else:
-		return 10 - (number % 10)
+		if (number % 10) != 0:
+			return 10 - (number % 10)
+		else:
+			return 0
 
 
 def print_last_digit(last_digit):
 
-	print('Last digit of {:d} is {:d} '.format(number, last_digit), end='')
+	print('Last digit of {:d} is {:d}'.format(number, last_digit), end=' ')
 	if last_digit > 5:
 		print('{}'.format('and is greater than 5'))
 	elif last_digit == 0:
 		print('{}'.format('and is 0'))
 	elif last_digit < 6 and last_digit != 0:
-		print('{:d}'.format('and is less than 6 and not 0'))
+		print('{}'.format('and is less than 6 and not 0'))
 
 
 if __name__ == '__main__':
