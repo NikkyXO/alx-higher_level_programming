@@ -7,6 +7,6 @@ def print_num_in_range_100():
 		else:
 			print('{:02d}'.format(n))
 
+
 if __name__ == '__main__':
 	print_num_in_range_100()
-
