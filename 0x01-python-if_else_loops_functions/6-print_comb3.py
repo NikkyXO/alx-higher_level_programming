@@ -8,6 +8,6 @@ def print_uniq_combos():
 			else:
 				print('{:d}{:d}'.format(n, j), end=', ')
 
+
 if __name__ == '__main__':
 	print_uniq_combos()
-	
