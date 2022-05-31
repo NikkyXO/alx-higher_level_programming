@@ -10,6 +10,7 @@ def print_hexa(number):
 	else:
 		return hex_str[ones]
 
+
 if __name__ == '__main__':
 	for num in range(99):
 		print('{:d} = 0x{}'.format(num, print_hexa(num)))
