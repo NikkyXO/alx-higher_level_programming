@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import random
 
-<<<<<<< HEAD
 number = random.randint(-10000, 10000)
 last_digit = abs(number) % 10
 
@@ -15,7 +14,7 @@ elif last_digit == 0:
     print("0")
 else:
     print("less than 6 and not 0")
-=======
+
 
 def get_randn():
 	number = random.randint(-10000, 10000)
@@ -47,4 +46,3 @@ if __name__ == '__main__':
 	number = get_randn()
 	last_digit = get_last_digit(number)
 	print_last_digit(last_digit)
->>>>>>> 679dacaec727d19e38af7f43f4ef8d2cfa5d558e
