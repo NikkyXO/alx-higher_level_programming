@@ -6,9 +6,9 @@ if __name__ != '__main__':
     exit()
 
 argc = len(argv) - 1
-
+result = 0
 if argc != 3:
-    print(f"Usage:{argv[0]} <a> <operator> <b>")
+    print("Usage: {:s} <a> <operator> <b>".format(argv[0]))
     exit(1)
 elif argv[2] == '+':
     result = add(int(argv[1]), int(argv[3]))
@@ -21,4 +21,4 @@ elif argv[2] == '*':
 else:
     print("Unknown operator. Available operators: +, -, * and /")
     exit(1)
-print(f"{argv[1]} {argv[2]} {argv[3]} = {result}")
+print("{:s} {:s} {:s} = {:d}".format(argv[1], argv[2], argv[3], result))
