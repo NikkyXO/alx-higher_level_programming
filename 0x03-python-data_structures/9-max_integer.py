@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def max_integer(my_list=[]):
-    """ 
+    """
     finds the largest integer of a list
     """
     if my_list == []:

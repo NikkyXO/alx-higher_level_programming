@@ -2,7 +2,8 @@
 
 def new_in_list(my_list, idx, element):
     """
-    A function that replace an element in a list at a given index without modifying original list.
+    A function that replace an element in a list at a
+    given index without modifying original list.
     """
     my_list_copy = [x for x in my_list]
 
