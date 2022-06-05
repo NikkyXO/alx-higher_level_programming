@@ -6,7 +6,7 @@ def multiple_returns(sentence):
     """
     s_length = len(sentence)
     if s_length == 0:
-        f_char = 0
+        f_char = None
     else:
         f_char = sentence[0]
     return ((s_length, f_char))
