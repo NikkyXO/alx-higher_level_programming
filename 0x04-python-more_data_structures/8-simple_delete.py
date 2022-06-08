@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
     """
-        Function that deletes a key in a dictionary.
-        key argument will be always a string
-        If a key doesn’t exist, the dictionary won’t change
-        You are not allowed to import any module
+    deletes an element based on the key from a dictionary
     """
-
     if key in a_dictionary:
-        del a_dictionary[key]
-    return a_dictionary
+        a_dictionary.pop(key)
+    return (a_dictionary.copy())
+    
