@@ -1,14 +1,10 @@
 #!/usr/bin/python3
 def complex_delete(a_dictionary, value):
     """
-        deletes keys with a specific value in a dictionary
-        If the value doesn’t exist, the dictionary won’t change
-        All keys having the searched value have to be deleted
+    Delete keys with a specific value in a dictionary
     """
-
-    new_dict = dict(a_dictionary)
-    for k, v in new_dict.items():
-        if v == value:
-            a_dictionary.pop(k)
-
-    return a_dictionary
+    if a_dictionary is not None and type(a_dictionary) is dict:
+        to_delete = {k: v for k, v in a_dictionary.items() if v == value}
+        for key, val in to_delete.items():
+            del a_dictionary[key]
+    return (a_dictionary.copy())
