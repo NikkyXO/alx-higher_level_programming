@@ -1,15 +1,16 @@
 #!/usr/bin/python3
 
+
 def safe_print_division(a, b):
     """
     Divides 2 integers and prints the result
-        The result of division should print on Finally
-        Returns Value of division, otherwise None
+    The result of division should print on Finally
+    Returns Value of division, otherwise None
     """
     try:
-        res = a / b
+        result = a / b
     except:
-        res = None
+        result = None
     finally:
-        print("Inside result: {}".format(res))
-    return res
+        print("Inside result: {}".format(result))
+    return result
