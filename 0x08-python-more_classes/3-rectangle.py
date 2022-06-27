@@ -55,3 +55,21 @@ class Rectangle:
             return 0
         else:
             return (2 * (self.__width + self.__height))
+
+    def __str__(self):
+        """
+        str method to print rectangle
+
+        Return:
+            string: The string with the # rectangle
+        """
+        string = ""
+        if self.__width == 0 or self.__height == 0:
+            return string
+        else:
+            for i in range(self.__height):
+                for j in range(self.__width):
+                    string += '#'
+                if i < (self.__height - 1):
+                    string += '\n'
+            return string
