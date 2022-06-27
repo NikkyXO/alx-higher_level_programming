@@ -5,11 +5,16 @@ It supplies A class "Rectangle"
 
 
 class Rectangle():
+    """class Rectangle that defines a rectangle figure
+    Attributes:
+        empty
+    """
+
     def __init__(self, width=0, height=0):
         """init method for class Rectangle
         Attributes:
             width(int): the width of the rectangle
-            heigth(int): the height of the rectangle        
+            heigth(int): the height of the rectangle
         """
         self.__width = width
         self.__height = height
