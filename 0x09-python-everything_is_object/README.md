@@ -1,6 +1,6 @@
 
 # Python - Everything is object
-    ![i dont always learn python](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/252/r_208403_QPSN8.jpg)
+    ![I dont always learn python](/https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/252/r_208403_QPSN8.jpg)
 
 ## Resources
 
