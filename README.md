@@ -21,7 +21,7 @@ Enjoy!
 - [The Python tutorial](https://docs.python.org/3tutorial/index.html)
 - [Whetting Your Appetite](https://docs.python.org/3tutorial/appetite.html)
 - [Using the Python Interpreter](https://docs.pythonorg/3/tutorial/interpreter.html)
-- [An Informal Introduction to Python] (https://docspython.org/3/tutorial/introduction.html)
+- [An Informal Introduction to Python](https://docspython.org/3/tutorial/introduction.html)
 - [How To Use String Formatters in Python 3](https:/realpython.com/python-f-strings/)
 - [Learn to Program](https://www.youtube.com/playlistlist=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
 - [PEP 8 – Style Guide for Python Code](https://pypiorg/project/pycodestyle/)
