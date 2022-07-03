@@ -71,15 +71,15 @@ C is strongly typed… not in Python! The variable number can be assigned to a s
     - You are not allowed to cast number to string
     - You have to use the new print formatting tips (with .format(...))
 
-        guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
-        Float: 3.14
-        guillaume@ubuntu:~/py/0x00$
+            guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
+            Float: 3.14
+            guillaume@ubuntu:~/py/0x00$
 
 5. Print string mandatory
 
 - Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
 
-    - You can find the source code here
+- You can find the source code here
 
         #!/usr/bin/python3
         str = "Holberton School"
@@ -103,6 +103,7 @@ Complete this source code to print Welcome to Holberton School!
         str2 = "School"
         # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
         print("Welcome to {}!".format(str1))
+ 
 - You can find the source code here
 - You are not allowed to use any loops or conditional statements.
 - You have to use the variables str1 and str2 in your new line of code
@@ -125,12 +126,12 @@ Complete this source code
         print("Last 2 letters: {}".format(word_last_2))
         print("Middle word: {}".format(middle_word))
 
-    You can find the source code here
-    You are not allowed to use any loops or conditional statements
-    Your program should be exactly 8 lines long
-    word_first_3 should contain the first 3 letters of the variable word
-    word_last_2 should contain the last 2 letters of the variable word
-    middle_word should contain the value of the variable word without the first and last letters
+- You can find the source code here
+- You are not allowed to use any loops or conditional statements
+- Your program should be exactly 8 lines long
+- word_first_3 should contain the first 3 letters of the variable word
+- word_last_2 should contain the last 2 letters of the variable word
+- middle_word should contain the value of the variable word without the first and last letters
 
         guillaume@ubuntu:~/py/0x00$ ./7-edges.py
         First 3 letters: Hol
@@ -150,11 +151,11 @@ Complete this source code to print object-oriented programming with Python, foll
         # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
         print(str)
 
-    You can find the source code here
-    You are not allowed to use any loops or conditional statements
-    Your program should be exactly 5 lines long
-    You are not allowed to create new variables
-    You are not allowed to use string literals
+You can find the source code here
+You are not allowed to use any loops or conditional statements
+Your program should be exactly 5 lines long
+You are not allowed to create new variables
+You are not allowed to use string literals
 
         guillaume@ubuntu:~/py/0x00$ ./8-concat_edges.py
         object-oriented programming with Python
@@ -168,7 +169,7 @@ Write a Python script that prints “The Zen of Python”, by TimPeters, followe
 
 Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
 
-        guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
+            guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
 
     The Zen of Python, by Tim Peters
 
