@@ -1,7 +1,7 @@
-0x04. Python - More Data Structures: Set, Dictionary
-Resourcesbooks
+# 0x04. Python - More Data Structures: Set, Dictionary
+## Resourcesbooks
 
-Read or watch:
+## Read or watch:
 
 - Data structures
 - Lambda, filter, reduce and map
