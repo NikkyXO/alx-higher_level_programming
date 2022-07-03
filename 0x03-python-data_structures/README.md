@@ -623,7 +623,8 @@ Create a C function that prints some basic info about Python lists.
 
    - List Objects
 
-        julien@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c
+    julien@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c
+
         julien@ubuntu:~/CPython$ cat 100-test_lists.py 
         import ctypes
 
