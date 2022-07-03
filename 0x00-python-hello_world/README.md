@@ -21,10 +21,10 @@ The Python file name will be saved in the environment variable $PYFILE
 
     - The Python code will be saved in the environment variable $PYCODE
 
-        guillaume@ubuntu:~/py/0x00$ export PYCODE='print("Holberton School: {}".format(88+10))'
-        guillaume@ubuntu:~/py/0x00$ ./1-run_inline
-        Holberton School: 98
-        guillaume@ubuntu:~/py/0x00$
+            guillaume@ubuntu:~/py/0x00$ export PYCODE='print("Holberton School: {}".format(88+10))'
+            guillaume@ubuntu:~/py/0x00$ ./1-run_inline
+            Holberton School: 98
+            guillaume@ubuntu:~/py/0x00$
 
 2. Hello, print mandatory
 
@@ -32,9 +32,9 @@ The Python file name will be saved in the environment variable $PYFILE
 
     - Use the function **print**
 
-        guillaume@ubuntu:~/py/0x00$ ./2-print.py
-        "Programming is like building a multilingual puzzle
-        guillaume@ubuntu:~/py/0x00$
+            guillaume@ubuntu:~/py/0x00$ ./2-print.py
+            "Programming is like building a multilingual puzzle
+            guillaume@ubuntu:~/py/0x00$
 
 3. Print integer mandatory
 
