@@ -71,29 +71,30 @@ The output of the program should be:
       - if the last digit is 0: the string and is 0
       - if the last digit is less than 6 and not 0: the string and is less than 6 and not 0
   followed by a new line
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of 4205 is 5 and is less than 6 and not 0
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of -626 is -6 and is less than 6 and not 0
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of 1144 is 4 and is less than 6 and not 0
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of -9200 is 0 and is 0
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of 5247 is 7 and is greater than 5
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of -9318 is -8 and is less than 6 and not 0
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of 3369 is 9 and is greater than 5
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of -5224 is -4 and is less than 6 and not 0
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of -4485 is -5 and is less than 6 and not 0
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of 3850 is 0 and is 0
-                  guillaume@ubuntu:~/0x01$ ./1-last_digit.py
-                  Last digit of 5169 is 9 and is greater than 5
-                  guillaume@ubuntu:~/0x01$
+  
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of 4205 is 5 and is less than 6 and not 0
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of -626 is -6 and is less than 6 and not 0
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of 1144 is 4 and is less than 6 and not 0
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of -9200 is 0 and is 0
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of 5247 is 7 and is greater than 5
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of -9318 is -8 and is less than 6 and not 0
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of 3369 is 9 and is greater than 5
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of -5224 is -4 and is less than 6 and not 0
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of -4485 is -5 and is less than 6 and not 0
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of 3850 is 0 and is 0
+                        guillaume@ubuntu:~/0x01$ ./1-last_digit.py
+                        Last digit of 5169 is 9 and is greater than 5
+                        guillaume@ubuntu:~/0x01$
 
 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game mandatory
 Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
@@ -102,8 +103,10 @@ You can only use one print function with string format
 You can only use one loop in your code
 You are not allowed to store characters in a variable
 You are not allowed to import any module
+
       guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
       abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
+ 
 3. When I was having that alphabet soup, I never thought that it would pay off mandatory
 Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 
@@ -112,8 +115,10 @@ You can only use one print function with string format
 You can only use one loop in your code
 You are not allowed to store characters in a variable
 You are not allowed to import any module
+
       guillaume@ubuntu:~/0x01$ ./3-print_alphabt.py
       abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$
+ 
 4. Hexadecimal printing mandatory
 Write a program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
 
@@ -121,6 +126,7 @@ You can only use one print function with string format
 You can only use one loop in your code
 You are not allowed to store numbers or strings in a variable
 You are not allowed to import any module
+
       guillaume@ubuntu:~/0x01$ ./4-print_hexa.py
       0 = 0x0
       1 = 0x1
@@ -146,6 +152,7 @@ You are not allowed to import any module
       97 = 0x61
       98 = 0x62
       guillaume@ubuntu:~/0x01$
+
 5. 00...99 mandatory
 Write a program that prints numbers from 0 to 99.
 
@@ -156,9 +163,11 @@ You can only use no more than 2 print functions with string format
 You can only use one loop in your code
 You are not allowed to store numbers or strings in a variable
 You are not allowed to import any module
+
       guillaume@ubuntu:~/0x01$ ./5-print_comb2.py
       00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99
-      guillaume@ubuntu:~/0x01$ 
+      guillaume@ubuntu:~/0x01$
+
 6. Inventing is a combination of brains and materials. The more brains you use, the less material you need mandatory
 Write a program that prints all possible different combinations of two digits.
 
@@ -172,9 +181,11 @@ You can only use no more than 3 print functions with string format
 You can only use no more than 2 loops in your code
 You are not allowed to store numbers or strings in a variable
 You are not allowed to import any module
+
       guillaume@ubuntu:~/0x01$ ./6-print_comb3.py
       01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
-      guillaume@ubuntu:~/0x01$ 
+      guillaume@ubuntu:~/0x01$
+
 7. islower mandatory
 Write a function that checks for lowercase character.
 
