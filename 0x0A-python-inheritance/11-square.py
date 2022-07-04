@@ -67,3 +67,10 @@ class Square(Rectangle):
         """String representation of square"""
         return "[{}] {:d}/{:d}".format(
             type(self).__name__, self.__size, self.__size)
+
+
+if __name__ == '__main__':
+    s = Square(13)
+
+    print(s)
+    print(s.area())

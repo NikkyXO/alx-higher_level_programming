@@ -11,3 +11,10 @@ class MyInt(int):
     def __ne__(self, n2):
         """Returns the opposite of __ne__"""
         return super().__eq__(n2)
+
+
+if __name__ == '__main__':
+    my_i = MyInt(3)
+    print(my_i)
+    print(my_i == 3)
+    print(my_i != 3)
