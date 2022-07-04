@@ -1,20 +1,19 @@
 #!/usr/bin/python3
+"""
+Contains the class MyInt
+"""
 
 
 class MyInt(int):
-    """Contrary rebel class of int"""
+    """rebel version of an integer, perfect for opposite day!"""
+    def __new__(cls, *args, **kwargs):
+        """create a new instance of the class"""
+        return super(MyInt, cls).__new__(cls, *args, **kwargs)
 
-    def __eq__(self, n2):
-        """Returns the opposite of __eq__"""
-        return super().__ne__(n2)
+    def __eq__(self, other):
+        """what was != is now =="""
+        return int(self) != other
 
-    def __ne__(self, n2):
-        """Returns the opposite of __ne__"""
-        return super().__eq__(n2)
-
-
-if __name__ == '__main__':
-    my_i = MyInt(3)
-    print(my_i)
-    print(my_i == 3)
-    print(my_i != 3)
+    def __ne__(self, other):
+        """what was == is now !="""
+        return int(self) == other
