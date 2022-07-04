@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 # Python Projects for Holberton School
 ## Author’s disclaimer
 ## Welcome to the Python world!
+=======
+## Python Projects for Holberton School
+## Author’s disclaimer
+### Welcome to the Python world!
+>>>>>>> 38ab07c0d9b4235123f8e5f049ee8fec8e440c5c
 
 ![Thinking like a programmer yet?](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
 
 After 3 months of C, you will start Python today.
 The first projects are more "C-oriented" - no tricks, no funky syntax - simple!
+
 If you've already played with Python, don't worry, fun things will come.
 
 You'll soon find that with Python (and the majority of higher level languages), there are ten different ways to do the same thing. Some tasks will expect only one implementation, while other tasks will have multiple possible implementations.
@@ -17,6 +24,7 @@ Enjoy!
 - Guillaume, CTO at Holberton
 
 ## Resources
+<<<<<<< HEAD
 ## Read or watch:
 
 - [The Python tutorial](https://docs.python.org/3tutorial/index.html)
@@ -81,6 +89,72 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ### More Info
 
 ##### The Zen of Python, by Tim Peters
+=======
+# Read or watch:
+- [The Python tutorial](https://docs.python.org/3tutorial/index.html)
+- [Whetting Your Appetite](https://docs.python.org/3tutorial/appetite.html)
+- [Using the Python Interpreter](https://docs.pythonorg/3/tutorial/interpreter.html)
+- [An Informal Introduction to Python](https://docspython.org/3/tutorial/introduction.html)
+- [How To Use String Formatters in Python 3](https:/realpython.com/python-f-strings/)
+- [Learn to Program](https://www.youtube.com/playlistlist=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+- [PEP 8 – Style Guide for Python Code](https://pypiorg/project/pycodestyle/)
+
+
+## Learning Objectives
+
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google: General
+
+- Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+- Who created Python
+- Who is Guido van Rossum
+- Where does the name ‘Python’ come from
+- What is the Zen of Python
+- How to use the Python interpreter
+- How to print text and variables using print
+- How to use strings
+- What are indexing and slicing in Python
+- What is the official Holberton Python coding style and how to check your code with PEP 8
+
+### Requirements
+### Python Scripts
+
+- Allowed editors: vi, vim, emacs
+- All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+- All your files should end with a new line
+- The first line of all your files should be exactly #!/usr/bin/python3
+- A README.md file at the root of the holbertonschool-higher_level_programming repo, containing a description of the repository
+- A README.md file, at the root of the folder of this project, is mandatory
+- Your code should use the PEP 8 style (version 1.7.*)
+- All your files must be executable
+- The length of your files will be tested using wc
+
+## Shell Scripts
+
+- Allowed editors: vi, vim, emacs
+- All your scripts will be tested on Ubuntu 14.04 LTS
+- All your scripts should be exactly two lines long (wc -l file should print 2)
+- All your files should end with a new line
+- The first line of all your files should be exactly #!/bin/bash
+- All your files must be executable
+
+### C Scripts
+
+- Allowed editors: vi, vim, emacs
+- All your files will be compiled on Ubuntu 14.04 LTS
+- Your programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+- All your files should end with a new line
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+- The prototypes of all your functions should be included in your header file called lists.h
+- Don’t forget to push your header file
+- All your header files should be include guarded
+
+#### More Info
+
+#### The Zen of Python, by Tim Peters
+>>>>>>> 38ab07c0d9b4235123f8e5f049ee8fec8e440c5c
 
     Beautiful is better than ugly.
     Explicit is better than implicit.
@@ -102,7 +176,11 @@ At the end of this project, you are expected to be able to explain to anyone, wi
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 
+<<<<<<< HEAD
 #### Install PEP8
+=======
+    Install PEP8
+>>>>>>> 38ab07c0d9b4235123f8e5f049ee8fec8e440c5c
 
 Pycodestyle is now the new standard of Python style code, but at school we will use *PEP8, version 1.7.* * Don’t worry, pycodestyle is based on pep8. The hardest part now is to install it for Python 3: Regular Ubuntu 14.04 install
 
