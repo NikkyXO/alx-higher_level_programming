@@ -4,10 +4,15 @@ Resourcesbooks
 Read or watch:
 
 [7.2. Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+
 [8.7. Predefined Clean-up Actions](https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions)
+
 [Dive Into Python 3: Chapter 11. Files](https://histo.ucsf.edu/BMS270/diveintopython3-r802.pdf)
+
 [JSON encoder and decoder](https://docs.python.org/3/library/json.html)
+
 [Learn to Program 8 : Reading / Writing Files](https://www.youtube.com/watch?v=EukxMIsNeqU)
+
 [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 # Learning Objectives bulb
@@ -52,7 +57,7 @@ Read or watch:
 - All your functions (inside and outside a class) should have a documentation (python3 -c 'print(import("my_module").my_function.doc)' and python3 -c 'print(import("my_module").MyClass.my_function.doc)')
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 
-0. Read file
+0. ### Read file
 
 - Write a function that reads a text file (UTF8) and prints it to stdout:
 
