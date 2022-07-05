@@ -4,15 +4,10 @@ Resourcesbooks
 Read or watch:
 
 [7.2. Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
-
 [8.7. Predefined Clean-up Actions](https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions)
-
 [Dive Into Python 3: Chapter 11. Files](https://histo.ucsf.edu/BMS270/diveintopython3-r802.pdf)
-
 [JSON encoder and decoder](https://docs.python.org/3/library/json.html)
-
 [Learn to Program 8 : Reading / Writing Files](https://www.youtube.com/watch?v=EukxMIsNeqU)
-
 [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 # Learning Objectives bulb
@@ -88,7 +83,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-1. Number of lines
+1. ### Number of lines
 
 - Write a function that returns the number of lines of a text file:
 
@@ -115,7 +110,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-2. Read n lines
+2. ### Read n lines
 
 - Write a function that reads n lines of a text file (UTF8) and prints it to stdout:
 
@@ -164,7 +159,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-3. Write to a file
+3. ### Write to a file
 
 - Write a function that writes a string to a text file (UTF8) and returns the number of characters written:
 
@@ -194,7 +189,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-4. Append to a file
+4. ### Append to a file
 
 - Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added:
 
@@ -229,7 +224,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-5. To JSON string
+5. ### To JSON string
 
 - Write a function that returns the JSON representation of an object (string):
 
@@ -277,7 +272,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-6. From JSON string to Object
+6. ###  From JSON string to Object
 
 - Write a function that returns an object (Python data structure) represented by a JSON string:
 
@@ -321,7 +316,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-7. Save Object to a file
+7. ### Save Object to a file
 
 - Write a function that writes an Object to a text file, using a JSON representation:
 
@@ -372,7 +367,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-8. Create object from a JSON file
+8. ### Create object from a JSON file
 
 - Write a function that creates an Object from a “JSON file”:
 
@@ -432,7 +427,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 ### No test cases needed
-9. Load, add, save
+9.  ### Load, add, save
 
 - Write a script that adds all arguments to a Python list, and then save them to a file:
 
@@ -460,9 +455,9 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-10. Class to JSON
+10. ### Class to JSON
 
-- Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
+> - Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
 
 - Prototype: def class_to_json(obj):
 
@@ -555,11 +550,11 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$
 
 #### No test cases needed
-11. Student to JSON
+11. ### Student to JSON
 
-- Write a class Student that defines a student by:
+> - Write a class Student that defines a student by:
 
-- Public instance attributes:
+> - Public instance attributes:
 
     - first_name
 
@@ -601,7 +596,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$ 
 
 ##### No test cases needed
-12. Student to JSON with filter
+12. ### Student to JSON with filter
 
 - Write a class Student that defines a student by: (based on 11-student.py)
 
@@ -615,7 +610,7 @@ Read or watch:
 
 - Instantiation with first_name, last_name and age: def init(self, first_name, last_name, age):
 
-- Public method def to_json(self, attrs=None): that retrieves a dictionary representation of a Student instance (same as 10-class_to_json.py):
+>  Public method def to_json(self, attrs=None): that retrieves a dictionary representation of a Student instance (same as 10-class_to_json.py):
 
     - If attrs is a list of strings, only attribute names contained in this list must be retrieved.
 
@@ -645,7 +640,7 @@ Read or watch:
         guillaume@ubuntu:~/0x0B$
 
 #### No test cases needed
-13. Student to disk and reload
+13. ### Student to disk and reload
 
 - Write a class Student that defines a student by: (based on 12-student.py)
 
@@ -661,9 +656,9 @@ Read or watch:
 
 - Public method def to_json(self, attrs=None): that retrieves a dictionary representation of a Student instance (same as 10-class_to_json.py):
 
-    - If attrs is a list of strings, only attributes name contain in this list must be retrieved.
+   > - If attrs is a list of strings, only attributes name contain in this list must be retrieved.
 
-    - Otherwise, all attributes must be retrieved
+   > - Otherwise, all attributes must be retrieved
 
 - Public method def reload_from_json(self, json): that replaces all attributes of the Student instance:
 
@@ -675,7 +670,7 @@ Read or watch:
 
 - You are not allowed to import any module
 
-Now, you have a simple implementation of a serialization and deserialization mechanism (concept of representation of an object to another format, without losing any information and allow us to rebuild an object based on this representation)
+> Now, you have a simple implementation of a serialization and deserialization mechanism (concept of representation of an object to another format, without losing any information and allow us to rebuild an object based on this representation)
 
         guillaume@ubuntu:~/0x0B$ cat 13-main.py 
         #!/usr/bin/python3
@@ -742,7 +737,7 @@ Now, you have a simple implementation of a serialization and deserialization mec
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-14. Pascal's Triangle
+14. ### Pascal's Triangle
 
 - Technical interview preparation:
 
@@ -783,7 +778,7 @@ Now, you have a simple implementation of a serialization and deserialization mec
         [1,4,6,4,1]
         guillaume@ubuntu:~/0x0B$ 
 
-15. Search and update
+15. ### Search and update
 
 - Write a function that inserts a line of text to a file, after each line containing a specific string (see example):
 
@@ -830,7 +825,7 @@ Now, you have a simple implementation of a serialization and deserialization mec
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-16. Log parsing
+16. ### Log parsing
 
 - Write a script that reads stdin line by line and computes metrics:
 
@@ -915,7 +910,7 @@ Now, you have a simple implementation of a serialization and deserialization mec
         guillaume@ubuntu:~/0x0B$ 
 
 #### No test cases needed
-17. Hack the VM
+17. ### Hack the VM
 
 - Write a script that finds a string in the heap of a running process, and replaces it.
 
