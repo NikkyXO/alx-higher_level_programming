@@ -31,7 +31,7 @@ class Square(Rectangle):
         self.height = value
 
     def update(self, *args, **kwargs):
-        """**kwargs must be skipped if 
+        """**kwargs must be skipped if
         *args exists and is not empty"""
 
         if len(args):

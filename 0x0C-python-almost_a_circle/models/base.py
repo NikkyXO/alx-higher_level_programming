@@ -85,7 +85,7 @@ class Base:
     def load_from_file_csv(cls):
         """deserializes a list of Rectangles/Squares in csv"""
         filename = cls.__name__ + ".csv"
-        l = []
+        lst = []
         try:
             with open(filename, 'r') as csvfile:
                 csv_reader = csv.reader(csvfile)
@@ -100,10 +100,10 @@ class Base:
                         dictionary = {"id": int(args[0]), "size": int(args[1]),
                                       "x": int(args[2]), "y": int(args[3])}
                     obj = cls.create(**dictionary)
-                    l.append(obj)
-        except:
+                    lst.append(obj)
+        except BaseException:
             pass
-        return l
+        return lst
 
     @staticmethod
     def draw(list_rectangles, list_squares):
