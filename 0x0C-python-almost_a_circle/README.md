@@ -985,4 +985,3 @@ Otherwise, return a list of instances - the type of these instances depends on c
 - GitHub repository: alx-higher_level_programming
 - Directory: 0x0C-python-almost_a_circle
 - File: models/base.py
-
